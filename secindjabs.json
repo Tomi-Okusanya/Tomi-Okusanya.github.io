@@ -11,14 +11,14 @@
     },
     
      "data": {
-      "url": "PASTE YOUR API HERE",
+      "url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/2ndjabdatabylocation.csv",
       "format": {"type": "csv"}
     },
   
      "transform":[
         
         {"filter": {
-          "field": "VARIABLE TO FILTER HERE", 
+          "field": "areaName", 
           "oneOf": ["X", "Y", "Z"]}
           }
   
@@ -41,7 +41,7 @@
       },
   
       "y": {
-        "field": "VARIABLE YOU ARE MEASURING HERE",
+        "field": "cumPeopleVaccinatedSecondDoseByVaccinationDate",
         "type": "quantitative",
         "title": null,
         "axis": {"grid": false}
