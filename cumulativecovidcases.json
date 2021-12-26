@@ -19,7 +19,7 @@
         
         {"filter": {
           "field": "areaName", 
-          "oneOf": ["Newham", "Westminster", "Hounslow", "Bristol City of"]}
+          "oneOf": ["Newham", "Westminster", "Hounslow", "Bristol, City of"]}
           }
   
   
