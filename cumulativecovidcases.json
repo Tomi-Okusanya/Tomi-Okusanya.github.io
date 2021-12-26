@@ -29,7 +29,7 @@
     "height": 300,
     "width": 310,
      
-    "mark": {"type": "line", "point": false},
+    "mark": {"type": "line", "point": true},
    
     "encoding": {
   
@@ -37,14 +37,14 @@
         "field": "date",
         "type": "temporal",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": true}
       },
   
       "y": {
         "field": "cumCasesBySpecimenDate",
         "type": "quantitative",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": true}
       },
   
       "color": {
