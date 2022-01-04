@@ -1,0 +1,61 @@
+﻿Country Name,Country Code,Series Name,Series Code,1990 [YR1990],2000 [YR2000],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+United Kingdom,GBR,"Population, total",SP.POP.TOTL,57247586,58892514,63258810,63700215,64128273,64602298,65116219,65611593,66058859,66460344,66836327,67215293
+United Kingdom,GBR,Population growth (annual %),SP.POP.GROW,0.298930554,0.357300887,0.781506562,0.695353132,0.669740536,0.736463979,0.792367506,0.757874493,0.679374474,0.605929132,0.564131113,0.565404595
+United Kingdom,GBR,Surface area (sq. km),AG.SRF.TOTL.K2,243610,243610,243610,243610,243610,243610,243610,243610,243610,243610,..,..
+United Kingdom,GBR,Population density (people per sq. km of land area),EN.POP.DNST,236.6287191,243.4279089,261.4756748,263.3001901,265.0695366,267.0288844,269.1531393,271.2007316,273.049473,274.7089819,276.2630802,277.8295085
+United Kingdom,GBR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..,..,..,..,..,..,..,17,18.6,..,..,..
+United Kingdom,GBR,Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population),SI.POV.DDAY,..,0.2,0.4,0.2,0.2,0.2,0.1,0.2,0.3,..,..,..
+United Kingdom,GBR,"GNI, Atlas method (current US$)",NY.GNP.ATLS.CD,1.06305E+12,1.72459E+12,2.61286E+12,2.67146E+12,2.75218E+12,2.8861E+12,2.91243E+12,2.85171E+12,2.76668E+12,2.81887E+12,2.9049E+12,2.6683E+12
+United Kingdom,GBR,"GNI per capita, Atlas method (current US$)",NY.GNP.PCAP.CD,18570,29280,41300,41940,42920,44670,44730,43460,41880,42410,43460,39700
+United Kingdom,GBR,"GNI, PPP (current international $)",NY.GNP.MKTP.PP.CD,9.93261E+11,1.56544E+12,2.37277E+12,2.42805E+12,2.52687E+12,2.63058E+12,2.72769E+12,2.8552E+12,3.02358E+12,3.13634E+12,3.27819E+12,3.03626E+12
+United Kingdom,GBR,"GNI per capita, PPP (current international $)",NY.GNP.PCAP.PP.CD,17350,26580,37510,38120,39400,40720,41890,43520,45770,47190,49050,45170
+United Kingdom,GBR,Income share held by lowest 20%,SI.DST.FRST.20,..,6.7,7.4,7.6,7.4,7.3,7.4,7.1,6.8,..,..,..
+United Kingdom,GBR,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,75.8804878,77.74146341,80.95121951,80.90487805,81.00487805,81.30487805,80.95609756,81.15609756,81.25609756,81.25609756,81.20487805,..
+United Kingdom,GBR,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1.83,1.64,1.91,1.92,1.83,1.81,1.8,1.79,1.74,1.68,1.65,..
+United Kingdom,GBR,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,30.9754,28.0886,19.8548,18.479,17.4572,16.4354,15.4136,14.3918,13.37,12.641,11.912,..
+United Kingdom,GBR,"Contraceptive prevalence, any method (% of married women ages 15-49)",SP.DYN.CONU.ZS,..,76,76.1,76.1,..,..,..,..,..,..,..,..
+United Kingdom,GBR,Births attended by skilled health staff (% of total),SH.STA.BRTC.ZS,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,"Mortality rate, under-5 (per 1,000 live births)",SH.DYN.MORT,9.3,6.5,5,4.8,4.7,4.5,4.5,4.4,4.4,4.3,4.3,..
+United Kingdom,GBR,"Prevalence of underweight, weight for age (% of children under 5)",SH.STA.MALN.ZS,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,87,88,90,92,93,93,93,92,92,92,91,..
+United Kingdom,GBR,"Primary completion rate, total (% of relevant age group)",SE.PRM.CMPT.ZS,..,..,..,..,..,..,102.010498,100.8825531,100.1228638,100.5974579,101.5946884,..
+United Kingdom,GBR,"School enrollment, primary (% gross)",SE.PRM.ENRR,106.8314972,100.3587189,104.4257126,106.2460785,107.1119995,102.2555466,101.9252701,101.3352127,101.1545563,100.9955521,100.4914627,..
+United Kingdom,GBR,"School enrollment, secondary (% gross)",SE.SEC.ENRR,84.36567688,101.8960114,93.76583099,91.55275726,123.7762909,126.3899002,124.5240021,..,125.8518677,120.783577,118.73629,..
+United Kingdom,GBR,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,1.018970013,1.005599976,1.003440022,0.999750018,1.024189949,1.02165997,1.016409993,..,1.015390038,1.01304996,1.011420012,..
+United Kingdom,GBR,"Prevalence of HIV, total (% of population ages 15-49)",SH.DYN.AIDS.ZS,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,Forest area (sq. km),AG.LND.FRST.K2,27780,29540,30782,30974,31166,31358,31550,31590,31640,31730,31820,31900
+United Kingdom,GBR,Terrestrial and marine protected areas (% of total territorial area),ER.PTD.TOTL.ZS,..,..,..,..,..,..,..,22.26206452,28.8252339,28.8252339,..,..
+United Kingdom,GBR,"Annual freshwater withdrawals, total (% of internal resources)",ER.H2O.FWTL.ZS,..,..,..,5.528965517,..,..,..,..,5.806206897,..,..,..
+United Kingdom,GBR,Urban population growth (annual %),SP.URB.GROW,0.234964714,0.433615661,1.110599171,1.02214552,0.993032273,1.05628515,1.108747983,1.072051621,0.988958892,0.912161082,0.868230887,0.865007896
+United Kingdom,GBR,Energy use (kg of oil equivalent per capita),EG.USE.PCAP.KG.OE,3597.051621,3785.753126,2972.153065,3042.859871,2987.700589,2777.310987,2764.516671,..,..,..,..,..
+United Kingdom,GBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,9.724252827,9.001483618,7.025424601,7.332471327,7.064902559,6.421598191,6.148544958,5.774741668,5.546265944,5.398708138,..,..
+United Kingdom,GBR,Electric power consumption (kWh per capita),EG.USE.ELEC.KH.PC,5356.57521,6114.529259,5471.933475,5449.259473,5409.626422,5130.390253,..,..,..,..,..,..
+United Kingdom,GBR,GDP (current US$),NY.GDP.MKTP.CD,1.09317E+12,1.66213E+12,2.67489E+12,2.71916E+12,2.80329E+12,3.08717E+12,2.95657E+12,2.72285E+12,2.69902E+12,2.90079E+12,2.87867E+12,2.7642E+12
+United Kingdom,GBR,GDP growth (annual %),NY.GDP.MKTP.KD.ZG,0.73375552,3.672369105,1.457563391,1.469887521,1.890018342,2.991164814,2.622596679,2.263463538,2.134453093,1.650925496,1.671944197,-9.693816671
+United Kingdom,GBR,"Inflation, GDP deflator (annual %)",NY.GDP.DEFL.KD.ZG,7.886218047,1.690837262,2.067332934,1.611883546,2.238800542,1.590368107,0.511374817,1.901106634,1.818766408,1.999034892,2.015103187,5.863177919
+United Kingdom,GBR,"Agriculture, forestry, and fishing, value added (% of GDP)",NV.AGR.TOTL.ZS,1.305915153,0.850705508,0.690202928,0.637404835,0.637535517,0.746524021,0.634452453,0.566834504,0.593378706,0.576624141,0.611985281,0.583375424
+United Kingdom,GBR,"Industry (including construction), value added (% of GDP)",NV.IND.TOTL.ZS,27.69985333,22.77405553,18.52418885,18.51692417,18.77216415,18.36994886,18.16519327,17.60340726,17.82968543,17.90602379,17.9812467,17.04200182
+United Kingdom,GBR,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,23.08092721,25.25052344,30.71382065,29.93688112,29.77389015,28.10983273,27.18477355,28.22078132,30.04568596,30.50639723,31.00497809,27.87349964
+United Kingdom,GBR,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,24.89571932,26.90177515,31.7181878,31.1687014,31.0808045,29.87401941,28.73147748,29.85850708,31.30907144,31.80782568,31.92229091,27.6749906
+United Kingdom,GBR,Gross capital formation (% of GDP),NE.GDI.TOTL.ZS,23.04997994,18.22321347,15.83309823,15.92135266,16.44810404,17.5633021,17.69118836,17.8103854,18.22899058,17.99708423,17.86418822,16.74145541
+United Kingdom,GBR,"Revenue, excluding grants (% of GDP)",GC.REV.XGRT.GD.ZS,32.60968079,33.7728721,34.53206901,33.90183896,34.71958643,33.91935238,34.091097,34.52845776,34.99527691,34.87371113,34.75337685,..
+United Kingdom,GBR,Time required to start a business (days),IC.REG.DURS,..,..,11.5,11.5,11.5,6,4.5,4.5,4.5,4.5,4.5,..
+United Kingdom,GBR,Domestic credit provided by financial sector (% of GDP),FS.AST.DOMS.GD.ZS,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,Tax revenue (% of GDP),GC.TAX.TOTL.GD.ZS,24.1512946,26.09959035,25.69312295,24.93930653,24.91680864,24.70277087,24.80214054,25.13961355,25.30971898,25.23634323,24.90676336,..
+United Kingdom,GBR,Military expenditure (% of GDP),MS.MIL.XPND.GD.ZS,3.983217695,2.372796645,2.502726402,2.420564731,2.293640241,2.183906248,2.045503192,1.981438255,1.946324996,1.948755708,2.013004573,2.246546679
+United Kingdom,GBR,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1.949788876,73.74331268,120.5248128,121.3932216,121.0666567,119.9282021,120.3319425,119.0555562,118.5404012,117.499287,118.2345574,116.3818566
+United Kingdom,GBR,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,..,..,23.28893068,23.44679999,23.57438281,22.1921749,22.32275254,23.54590167,22.60672158,22.31955772,23.08326216,22.99716268
+United Kingdom,GBR,Statistical Capacity Score (Overall Average) (scale 0 - 100),IQ.SCI.OVRL,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,37.33629976,37.47101451,44.53709661,43.45535831,43.12484237,39.02981424,37.06496377,38.47388753,40.0886365,39.94447801,40.48676701,37.60306353
+United Kingdom,GBR,Net barter terms of trade index (2000 = 100),TT.PRI.MRCH.XD.WD,..,100,101.0184871,100.2095564,101.5199377,99.5557027,96.79833371,98.58767948,99.62914398,99.38251331,100.2643241,..
+United Kingdom,GBR,"External debt stocks, total (DOD, current US$)",DT.DOD.DECT.CD,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,"Total debt service (% of exports of goods, services and primary income)",DT.TDS.DECT.EX.ZS,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,GBR,Net migration,SM.POP.NETM,..,..,..,1300231,..,..,..,..,1303250,..,..,..
+United Kingdom,GBR,"Personal remittances, received (current US$)",BX.TRF.PWKR.CD.DT,2099054688,5074369393,5099003471,4944716073,4804502413,4935585091,5003393486,4582283767,4308885980,4389788199,4214814558,3307080784
+United Kingdom,GBR,"Foreign direct investment, net inflows (BoP, current US$)",BX.KLT.DINV.CD.WD,41363405439,1.6413E+11,27012050072,46750789728,54473175400,58890445253,45333483122,3.24813E+11,1.25359E+11,81158909779,2236675458,..
+United Kingdom,GBR,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,..,..,..,..,..,..,..,..,..,..,..,..
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Data from database: World Development Indicators,,,,,,,,,,,,,,,
+Last Updated: 12/16/2021,,,,,,,,,,,,,,,
