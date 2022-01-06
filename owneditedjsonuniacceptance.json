@@ -1,6 +1,6 @@
 {"$schema":"https://vega.github.io/schema/vega-lite/v5.json",
   
-    "description": "Men's Deadlift Data",
+    "description": "Offer Rates of Various Universities",
 
     "title": {
      "text": "Offer Rates of Various Univerisities",
