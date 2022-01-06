@@ -1,0 +1,33 @@
+{"$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Men's Deadlift Data",
+
+    "title": {
+     "text": "Offer Rates of Various Univerisities",
+     "anchor": "start",
+     "color": "black",
+     "subtitle":"Percentage of undergraduate applications that received an offer in 2021",
+     "subtitleFontStyle":"italic",
+     "subtitleFontSize":10,
+     "subtitleColor":"black"
+    },
+    "data": {
+    "values": [
+      {"a": "UofB", "b": "71.8"},
+      {"a": "UWE", "b": "71.0"},
+      {"a": "UoC", "b": "26.5"},
+      {"a": "UOO", "b": "21.5"},
+      {"a": "UCL", "b": "56.6"}
+    ]},
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "a",
+      "title": "Country",
+      "type": "nominal",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {"field": "b", "title": "Offer Percentage", "type": "quantitative"}
+  },
+  "config": {}
+}
