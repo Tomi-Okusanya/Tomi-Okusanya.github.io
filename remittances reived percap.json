@@ -1,0 +1,40 @@
+{"$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Remittances Received per Capita",
+
+    "title": {
+     "text": "Remittances per Capita in the UK from 2011 to 2020",
+     "anchor": "start",
+     "color": "black",
+     "subtitle":"Remittances per capita (USD)",
+     "subtitleFontStyle":"italic",
+     "subtitleFontSize":10,
+     "subtitleColor":"black"
+    },
+
+    "data": {"url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/UKworldbankremittancesdatafromworldbank.csv", "format": {"type": "csv"}
+},
+    "height": 300,
+    "width": 310,
+     
+    "mark": {"type": "line", "point": false},
+   
+    "encoding": {
+  
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false}
+      },
+  
+      "y": {
+        "field": "Remittances per Person",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false}
+      }
+  
+  
+     }
+  }
