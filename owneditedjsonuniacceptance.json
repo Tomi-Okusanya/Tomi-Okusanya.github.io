@@ -13,11 +13,11 @@
     },
     "data": {
     "values": [
-      {"a": "UofB", "b": "71.8"},
-      {"a": "UWE", "b": "71.0"},
-      {"a": "UoC", "b": "26.5"},
-      {"a": "UOO", "b": "21.5"},
-      {"a": "UCL", "b": "56.6"}
+      {"a": "UofB","b": "71.8"},
+      {"a": "UWE","b": "71.0"},
+      {"a": "UoC","b": "26.5"},
+      {"a": "UOO","b": "21.5"},
+      {"a": "UCL","b": "56.6"}
     ]},
   "mark": "bar",
   "encoding": {
@@ -25,7 +25,7 @@
       "field": "a",
       "title": "Country",
       "type": "nominal",
-      "axis": {"labelAngle": 0}
+      "axis": {"labelAngle": 30}
     },
     "y": {"field": "b", "title": "Offer Percentage", "type": "quantitative"}
   },
