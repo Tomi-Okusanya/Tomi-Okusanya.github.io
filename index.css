@@ -1,17 +1,17 @@
 /* This is my first proper css file */
 
 body{
-    background-color: rgb(90, 20, 90);
+    background-color: rgb(251, 169, 44);
     max-width: 400px;
     margin: auto;
 }
 
 
-h1{color:rgb(255, 255, 255);
+h1{color:rgb(158, 158, 158);
     font-family: 'Roboto', sans-serif;
 }
 h3{
-    color:rgb(255, 255, 255);
+    color:rgb(86, 86, 86);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,7 +21,7 @@ p{
 }
 
 .chart{
-    background-color: rgb(255, 150, 255);
+    background-color: rgb(255, 255, 255);
     width:300px;
     border-width: 10px;
     border-style: solid;
