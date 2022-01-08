@@ -42,7 +42,7 @@
    <div class="navbuttons">
     <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
   </div>
-
+<p class=sub><b><span style="color:rgb(255, 255, 255)">HW1 & HW 2 Building a site and embedding charts</span></b></p>
     <h3>Covid-19</h3>
 
     <p>The first chart tracks Covid-19 cases by UK region.</p>
@@ -78,40 +78,44 @@
 
   <p>My third chart looks at how populations are declining in different countries</p>
 
-<div class="chart" id="secondChart">
+<div class="chart" id="thirdChart">
   <script>
     var myChart1 = "decliningpop.json";
-    vegaEmbed('#secondChart', myChart1);
+    vegaEmbed('#thirdChart', myChart1);
   </script>
 </div> 
+ <div>
+ <p class=sub><b><span style="color:rgb(255, 255, 255)">HW1 & HW 2 Building a site and embedding charts</span></b></p>
     <h3>Cumulative Covid Cases by Different Regions in the UK</h3>
     
-    <p>My third chart looks at the cumulative Covid cases in different parts of the UK (three boroughs in London and the city of Bristol)</p>
+    <p>My fourth chart looks at the cumulative Covid cases in different parts of the UK (three boroughs in London and the city of Bristol)</p>
 <div class="chart" id="thirdChart">
     <script>
         var myChart1="cumulativecovidcases.json";
-        vegaEmbed('#thirdChart', myChart1)
-    </script>
- </div>    
- </div>
-   
-    <h3>Cumulative 2nd Jabs by Different Regions in the UK</h3>
-    
-    <p>My fourth chart looks at the cumulative number of 2nd Jabs in different parts of the UK (three boroughs in London and the city of Bristol)</p>
-<div class="chart" id="fourthChart">
-    <script>
-        var myChart1="secindjabs.json";
         vegaEmbed('#fourthChart', myChart1)
     </script>
  </div>    
+ <div>
+ <p class=sub><b><span style="color:rgb(255, 255, 255)">HW3 Hosting Data</span></b></p>
+  <div>
+    <h3>Cumulative 2nd Jabs by Different Regions in the UK</h3>
+    
+    <p>My fifth chart looks at the cumulative number of 2nd Jabs in different parts of the UK (three boroughs in London and the city of Bristol)</p>
+<div class="chart" id="fifthChart">
+    <script>
+        var myChart1="secindjabs.json";
+        vegaEmbed('#fifthChart', myChart1)
+    </script>
+ </div>    
+   <div>
  </body>
   <h3>Stop and Searches in Stratford</h3>
     
-    <p>My fifth chart looks at stop and searches by gender in Stratford in 2021</p>
-<div class="chart" id="fifthChart">
+    <p>My sixth chart looks at stop and searches by gender in Stratford in 2021</p>
+<div class="chart" id="sixthChart">
     <script>
         var myChart1="stopandsearchesbygenderforstratford.json";
-        vegaEmbed('#fifthChart', myChart1)
+        vegaEmbed('#sixthChart', myChart1)
     </script>
  </div>    
  </body>
