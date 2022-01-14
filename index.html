@@ -38,7 +38,7 @@
 
 <body>
 
-    <h1>Data Science 2021.</h1>
+    <h1>Data Science 2021 Portfolio<h1>
    <div class="navbuttons">
     <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
   </div>
@@ -69,7 +69,7 @@
 <div class="chart" id="secondChart">
   <script>
     var myChart1 = "chart2_ukProductivity.json";
-    vegaEmbed('#secondChart', myChart1);
+    vegaEmbed('#secondChart', myChart2);
   </script>
 </div>
  </div>
@@ -81,66 +81,54 @@
 <div class="chart" id="thirdChart">
   <script>
     var myChart1 = "decliningpop.json";
-    vegaEmbed('#thirdChart', myChart1);
+    vegaEmbed('#thirdChart', myChart3);
   </script>
 </div> 
  <div>
- <p class=sub><b><span style="color:rgb(255, 255, 255)">HW1 & HW 2 Building a site and embedding charts</span></b></p>
+ <p class=sub><b><span style="color:rgb(255, 255, 255)">HW3 Hosting Data</span></b></p>
     <h3>Cumulative Covid Cases by Different Regions in the UK</h3>
     
-    <p>My fourth chart looks at the cumulative Covid cases in different parts of the UK (three boroughs in London and the city of Bristol)</p>
-<div class="chart" id="thirdChart">
+    <p>My fourth chart looks at the cumulative Covid cases in different parts of the UK (three boroughs in London and the city of Bristol) and was made with an API.</p>
+<div class="chart" id="fourthChart">
     <script>
         var myChart1="cumulativecovidcases.json";
-        vegaEmbed('#fourthChart', myChart1)
+        vegaEmbed('#fourthChart', myChart4);
     </script>
  </div>    
  <div>
- <p class=sub><b><span style="color:rgb(255, 255, 255)">HW3 Hosting Data</span></b></p>
+ 
   <div>
     <h3>Cumulative 2nd Jabs by Different Regions in the UK</h3>
     
-    <p>My fifth chart looks at the cumulative number of 2nd Jabs in different parts of the UK (three boroughs in London and the city of Bristol)</p>
+    <p>My fifth chart looks at the cumulative number of 2nd Jabs in different parts of the UK (three boroughs in London and the city of Bristol) and was made with a CSV file available in my Repository.</p>
 <div class="chart" id="fifthChart">
     <script>
         var myChart1="secindjabs.json";
-        vegaEmbed('#fifthChart', myChart1)
+        vegaEmbed('#fifthChart', myChart5);
     </script>
  </div>    
    <div>
  </body>
-  <h3>Stop and Searches in Stratford</h3>
+   <p class=sub><b><span style="color:rgb(255, 255, 255)">HW4 Editing Data, Writing JSON by Hand</span></b></p>
+
+  <div>
+   <h3>Univeristy Admission Rates<h3>
+    <p>My sixth chart looks at the offer rate of undergraduate applications, with the statistics taken from Save the Student and then written into JSON<p>
+    <div class="chart" id="sixthChart">
+     <script>
+      var myChart1="owneditedjsonuniacceptance.json";
+      vegaEmbed('#sixthChart', myChart6);
+     </script>
+    </div>
+   <div>
+    <h3>Remittances per capita</h3>
+    <p>My seventh chart looks at the remittances per capita in different nations, with the statistics taken from two separate World Bank data bases (one for gross remittances and the other from population statistics) and then placed in the same CSV file</p>
+     <div class="chart" id="seventhChart"
+          <script>
+     var myChart1="remittances reived percap.json";
+     vegaEmbed('#seventhChart', myChart7);
+     </script>
+    </div>
     
-    <p>My sixth chart looks at stop and searches by gender in Stratford in 2021</p>
-<div class="chart" id="sixthChart">
-    <script>
-        var myChart1="stopandsearchesbygenderforstratford.json";
-        vegaEmbed('#sixthChart', myChart1)
-    </script>
- </div>    
- </body>
-</body>
-  <h3>Remittances Data</h3>
-    
-    <p>My sixth chart looks Remittances per Capita over 2011 to 2020</p>
-<div class="chart" id="sixthChart">
-    <script>
-        var myChart1="remittances reived percap.json";
-        vegaEmbed('#sixthChart', myChart1)
-    </script>
- </div>    
- </body>
-</body>
-  <h3>University Acceptance Rates</h3>
-    
-    <p>My seventh chart looks University Offer rates</p>
-<div class="chart" id="seventhChart">
-    <script>
-        var myChart1="owneditedjsonuniacceptance.json";
-        vegaEmbed('#seventhChart', myChart1)
-    </script>
- </div>    
- </body>
-</html>
 
 
