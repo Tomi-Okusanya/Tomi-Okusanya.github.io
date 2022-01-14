@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+
+    "text": "Population Density in Differnet Nations",
+
+    "subtitle": "Nations with the highest population densities, Source: Wikipedia",
+
+    "subtitleFontStyle":"italic",
+
+    "subtitleFontSize":10,
+
+    "anchor": "start",
+
+    "color": "black"
+ },
+
+  "data": {"url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/popdensitytablesmostdense.csv"},
+  "mark":{
+
+ 
+
+      "type": "bar",
+
+      "color": "#86d0bb",
+
+      "strokeWidth":2,
+
+      "opacity":1
+
+ 
+
+    },
+  "height": 300,
+  "width": 250,
+
+  "encoding": {
+    "y": {"field": "Country", "type": "ordinal", "sort":[], "title": null},
+
+
+
+
+    "x": {"field": "Density", "type": "quantitative", "title": null, "scale": {"domain": [0, 3000]}}
+ 
+
+    }
+
+
+}
