@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "SAS litter",
+  "title": {
+
+    "text": "Distrust in Education by Nation",
+
+    "subtitle": "Average answer when assessing trust education (0-4, 0-Total Trust, 4-No Trust).Source: European Values Survey",
+
+    "subtitleFontStyle":"italic",
+
+    "subtitleFontSize":10,
+
+    "anchor": "start",
+
+    "color": "black"
+ },
+
+ "params":[{"name":"highlight","select": {"type":"point","on":"mouseover"}}],
+
+  "data": {"url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/evsdatascienceset1.csv"},
+  "mark":{
+
+ 
+
+      "type": "bar",
+
+      "color": "#b286d0",
+
+      "strokeWidth":2,
+
+      "opacity":1
+
+ 
+
+    },
+  "height": 300,
+  "width": 250,
+
+  "encoding": {
+    "y": {"field": "Country", "type": "ordinal", "sort":[], "title": null},
+
+
+
+
+    "x": {"field": "AvgEduTrust", "type": "quantitative", "title": null, "scale": {"domain": [0, 2]}},
+    "fillOpacity":{"condition":{"param":"highlight", "value": 1}, "value":0.6},
+
+    "tooltip":[{"field":"Country", "title":"Country"}, {"field":"AvgEduTrust","title":"Distrust Score"}]
+
+    }}
