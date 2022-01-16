@@ -5,7 +5,7 @@
     "text": "Stop and Searches by Location",
     "anchor": "start",
     "color": "black",
-    "subtitle": "Stops and Searches from 2021. Source: Police API.",
+    "subtitle": "Stops and Searches from November 2021. Source: Police API.",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "subtitleColor": "black"
@@ -17,7 +17,6 @@
   "mark": "bar",
   "encoding": {
     "x": {"field": "gender", "type": "nominal", "axis": {"labelAngle": 20}},
-    "y": {"field": "search", "type": "quantitative"}
-    
+    "y": {"field": "search", "type": "quantitative", "scale":{"domain":[0,70]}}
   }
 }
