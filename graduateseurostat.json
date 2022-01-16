@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Graduates by Education Level 2013-2019",
+    "subtitle":"Number of Graduates receiving Bachelors Degrees, Source: Eurostat",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"},
+
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/bachgradata.csv",
+    "format": {"type": "csv"}
+  },
+ 
+  "height": 300,
+  "width": 300,
+ 
+  "mark": {"type": "line", "point": false},
+  
+  "encoding": {
+    
+    "x": {
+      "field": "TIME",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}},
+ 
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}},
+
+    "color": {
+      "field": "GEO",
+      "type": "nominal",
+      "scale": {"scheme": "set1"},
+      "title": null,
+      "legend": {"orient": "right"}
+ 
+   }
+}
+}
