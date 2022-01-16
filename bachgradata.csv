@@ -1,5 +1,5 @@
 TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
-2012,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,2418920.00,
 2014,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,2483575.00,
 2015,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,2451462.00,
@@ -7,7 +7,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,2456157.00,
 2018,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,2386571.00,
 2019,European Union - 28 countries (2013-2020),Number,Total,Total,Bachelor's or equivalent level,2525643.00,
-2012,Finland,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Finland,Number,Total,Total,Bachelor's or equivalent level,33669.00,
 2014,Finland,Number,Total,Total,Bachelor's or equivalent level,34318.00,
 2015,Finland,Number,Total,Total,Bachelor's or equivalent level,36998.00,
@@ -15,7 +15,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Finland,Number,Total,Total,Bachelor's or equivalent level,36475.00,
 2018,Finland,Number,Total,Total,Bachelor's or equivalent level,37547.00,
 2019,Finland,Number,Total,Total,Bachelor's or equivalent level,37604.00,
-2012,France,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,France,Number,Total,Total,Bachelor's or equivalent level,239564.00,
 2014,France,Number,Total,Total,Bachelor's or equivalent level,241936.00,
 2015,France,Number,Total,Total,Bachelor's or equivalent level,256600.00,
@@ -23,7 +23,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,France,Number,Total,Total,Bachelor's or equivalent level,260621.00,
 2018,France,Number,Total,Total,Bachelor's or equivalent level,263033.00,
 2019,France,Number,Total,Total,Bachelor's or equivalent level,267962.00,
-2012,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,283959.00,
 2014,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,302465.00,
 2015,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,318662.00,
@@ -31,7 +31,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,327687.00,
 2018,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,320295.00,
 2019,Germany (until 1990 former territory of the FRG),Number,Total,Total,Bachelor's or equivalent level,391905.00,
-2012,Greece,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Greece,Number,Total,Total,Bachelor's or equivalent level,53394.00,
 2014,Greece,Number,Total,Total,Bachelor's or equivalent level,53979.00,
 2015,Greece,Number,Total,Total,Bachelor's or equivalent level,53885.00,
@@ -39,7 +39,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Greece,Number,Total,Total,Bachelor's or equivalent level,50133.00,
 2018,Greece,Number,Total,Total,Bachelor's or equivalent level,48004.00,
 2019,Greece,Number,Total,Total,Bachelor's or equivalent level,48330.00,
-2012,Ireland,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Ireland,Number,Total,Total,Bachelor's or equivalent level,29391.00,
 2014,Ireland,Number,Total,Total,Bachelor's or equivalent level,40856.00,
 2015,Ireland,Number,Total,Total,Bachelor's or equivalent level,43036.00,
@@ -47,7 +47,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Ireland,Number,Total,Total,Bachelor's or equivalent level,44485.00,
 2018,Ireland,Number,Total,Total,Bachelor's or equivalent level,47411.00,
 2019,Ireland,Number,Total,Total,Bachelor's or equivalent level,45284.00,
-2012,Italy,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Italy,Number,Total,Total,Bachelor's or equivalent level,201652.00,
 2014,Italy,Number,Total,Total,Bachelor's or equivalent level,207709.00,
 2015,Italy,Number,Total,Total,Bachelor's or equivalent level,203771.00,
@@ -55,7 +55,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Italy,Number,Total,Total,Bachelor's or equivalent level,214758.00,
 2018,Italy,Number,Total,Total,Bachelor's or equivalent level,223428.00,
 2019,Italy,Number,Total,Total,Bachelor's or equivalent level,232985.00,
-2012,Netherlands,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Netherlands,Number,Total,Total,Bachelor's or equivalent level,92323.00,
 2014,Netherlands,Number,Total,Total,Bachelor's or equivalent level,93306.00,
 2015,Netherlands,Number,Total,Total,Bachelor's or equivalent level,98461.00,
@@ -63,7 +63,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Netherlands,Number,Total,Total,Bachelor's or equivalent level,103025.00,
 2018,Netherlands,Number,Total,Total,Bachelor's or equivalent level,104948.00,
 2019,Netherlands,Number,Total,Total,Bachelor's or equivalent level,104069.00,
-2012,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,9151.00,
 2014,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,9448.00,
 2015,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,8267.00,
@@ -71,7 +71,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,8270.00,
 2018,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,7273.00,
 2019,North Macedonia,Number,Total,Total,Bachelor's or equivalent level,7738.00,
-2012,Norway,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Norway,Number,Total,Total,Bachelor's or equivalent level,28154.00,
 2014,Norway,Number,Total,Total,Bachelor's or equivalent level,29841.00,
 2015,Norway,Number,Total,Total,Bachelor's or equivalent level,30367.00,
@@ -79,7 +79,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Norway,Number,Total,Total,Bachelor's or equivalent level,33403.00,
 2018,Norway,Number,Total,Total,Bachelor's or equivalent level,34573.00,d
 2019,Norway,Number,Total,Total,Bachelor's or equivalent level,35528.00,
-2012,Poland,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Poland,Number,Total,Total,Bachelor's or equivalent level,392182.00,
 2014,Poland,Number,Total,Total,Bachelor's or equivalent level,362043.00,
 2015,Poland,Number,Total,Total,Bachelor's or equivalent level,334259.00,
@@ -87,7 +87,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Poland,Number,Total,Total,Bachelor's or equivalent level,327275.00,
 2018,Poland,Number,Total,Total,Bachelor's or equivalent level,314721.00,d
 2019,Poland,Number,Total,Total,Bachelor's or equivalent level,302479.00,
-2012,Portugal,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Portugal,Number,Total,Total,Bachelor's or equivalent level,51467.00,
 2014,Portugal,Number,Total,Total,Bachelor's or equivalent level,47592.00,
 2015,Portugal,Number,Total,Total,Bachelor's or equivalent level,47494.00,
@@ -95,7 +95,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Portugal,Number,Total,Total,Bachelor's or equivalent level,47280.00,
 2018,Portugal,Number,Total,Total,Bachelor's or equivalent level,48808.00,
 2019,Portugal,Number,Total,Total,Bachelor's or equivalent level,49085.00,
-2012,Spain,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Spain,Number,Total,Total,Bachelor's or equivalent level,116715.00,
 2014,Spain,Number,Total,Total,Bachelor's or equivalent level,160488.00,
 2015,Spain,Number,Total,Total,Bachelor's or equivalent level,175051.00,
@@ -103,7 +103,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Spain,Number,Total,Total,Bachelor's or equivalent level,177419.00,
 2018,Spain,Number,Total,Total,Bachelor's or equivalent level,179250.00,
 2019,Spain,Number,Total,Total,Bachelor's or equivalent level,178433.00,
-2012,Sweden,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Sweden,Number,Total,Total,Bachelor's or equivalent level,34016.00,
 2014,Sweden,Number,Total,Total,Bachelor's or equivalent level,36176.00,
 2015,Sweden,Number,Total,Total,Bachelor's or equivalent level,36471.00,
@@ -111,7 +111,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Sweden,Number,Total,Total,Bachelor's or equivalent level,34373.00,
 2018,Sweden,Number,Total,Total,Bachelor's or equivalent level,35074.00,
 2019,Sweden,Number,Total,Total,Bachelor's or equivalent level,34875.00,
-2012,Switzerland,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,Switzerland,Number,Total,Total,Bachelor's or equivalent level,53560.00,
 2014,Switzerland,Number,Total,Total,Bachelor's or equivalent level,56187.00,
 2015,Switzerland,Number,Total,Total,Bachelor's or equivalent level,57282.00,
@@ -119,7 +119,7 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,Switzerland,Number,Total,Total,Bachelor's or equivalent level,58550.00,
 2018,Switzerland,Number,Total,Total,Bachelor's or equivalent level,59131.00,
 2019,Switzerland,Number,Total,Total,Bachelor's or equivalent level,60746.00,
-2012,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,:,
+
 2013,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,402682.00,
 2014,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,444152.00,
 2015,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,394636.00,
@@ -127,24 +127,3 @@ TIME,GEO,UNIT,AGE,SEX,ISCED11,Value,Flag and Footnotes
 2017,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,414236.00,
 2018,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,418704.00,
 2019,United Kingdom,Number,Total,Total,Bachelor's or equivalent level,431820.00,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,d
-,,,,,,,d
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,d
-,,,,,,,d
