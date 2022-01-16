@@ -1,67 +1,72 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "title": {
-    "text": "London Population",
-    "subtitle":"London Population over Time with Projections",
+  "description": "Bank Rate",
+
+   "title": {
+    "text": "Bank Rate",
+    "subtitle":"Bank of England's main policy rate (%). Source: BoE",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black"},
-
+    "color": "black"
+  },
   
   "data": {
-    "url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/London-population-2022-01-14.csv",
-    "format": {"type": "csv"}
-  },
- 
+    "url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/londonlongpopdata.csv"},
   "height": 300,
   "width": 300,
+  "mark": {
+    "type": "line",
+    "point": false,
+    "interpolate": "step",
+    "color": "blueviolet"
+  },
+
+  "encoding": {"x": {"field": "Year", "type": "temporal", "title":null}},
  
-  "mark": {"type": "line", "point": false,"strokeWidth":1,"width":1,"color":"blueviolet"} ,
-
-    "transform": [
-      {"filter": "datum.year>minYear"},
-      {"filter": "datum.year<maxYear"}
-    ],
-
-    "params": [    
-      {"name":"minYear", "value":1800,
-         "bind":{
-           "input": "range",
-           "min": 1800, 
-           "max": 2021, 
-           "step": 1,
-           "name": "Start year:"}
-      },
-
-      {"name":"maxYear", "value":2021,
-         "bind":{
-           "input": "range",
-           "min": 1800, 
-           "max": 2021, 
-           "step": 1,
-           "name": "End year:"}
-      }
-    ],
-
-  
-  "encoding": {
+  "layer": [
+    {"encoding": {
+        "y": {"field": "Population", 
+              "type": "quantitative", 
+              "title":null, "scale":{"domain":[5000000,11000000]}}},
+        
+        "layer": [
+          {"mark":{
+            "type": "line",
+            "align": false,
+            "interpolate": "step",
+            "color": "red"}},
+          {"transform": 
+            [{"filter": {"selection": "hover"}}], 
+               "mark": {
+                 "type":"circle",
+                 "size":150,
+                 "color":"red"}}
+      ]
+    },
     
-    "x": {
-      "field": "Year",
-      "type": "temporal",
-      "title": null,
-      "axis": {"grid": false}
-      },
- 
-    "y": {
-      "field": "Population",
-      "type": "quantitative",
-      "title": null,
-      "axis": {"grid": false},
-      "scale":{"domain":[7000000,11000000]}}
-
-  
-   }}
-
+    {"mark": "rule", 
+      "encoding": {
+         "opacity": {
+           "condition": {"value": 0, "selection": "hover"},
+           "value": 0
+             },
+          "tooltip": [
+          {"field": "Year", "type": "temporal", "format": "%Y", "title":"Year"},  
+          {"field": "Population", "type": "quantitative", "format": ",.0f", "title":"Population"}
+            ]
+           },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["Date"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
+    }
+  ]
+}
