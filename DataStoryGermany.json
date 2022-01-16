@@ -3,7 +3,7 @@
      
        "title": {
         "text": "Balance of Payments in Germany over Pandemic",
-        "subtitle":"BOP of Goods and Services in Germany. Source: Eurostat",
+        "subtitle":"BOP of Goods and Services in Germany in millions of Euros. Source: Eurostat",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "anchor": "start",
