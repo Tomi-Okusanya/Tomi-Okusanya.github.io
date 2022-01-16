@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "SAS litter",
+  
   "title": {
 
     "text": "Distrust in Education by Nation in 2018",
