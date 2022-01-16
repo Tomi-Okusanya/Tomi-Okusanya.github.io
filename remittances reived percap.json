@@ -17,7 +17,7 @@
     "height": 300,
     "width": 310,
      
-    "mark": {"type": "line", "point": false},
+    "mark": {"type": "line", "strokeWidth":2, "color":"blueviolet"},
    
     "encoding": {
   
@@ -29,10 +29,10 @@
       },
   
       "y": {
-        "field": "Remittances per Person",
+        "field": "Remittances per Person ",
         "type": "quantitative",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": false}, "scale":{"domain":[40,100]}
       }
   
   
