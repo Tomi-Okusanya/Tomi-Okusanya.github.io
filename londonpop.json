@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Bank Rate",
+
 
    "title": {
-    "text": "Bank Rate",
-    "subtitle":"Bank of England's main policy rate (%). Source: BoE",
+    "text": "Population of London",
+    "subtitle":"Population of London with Future Projections, Source: Macrotrends.net",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
