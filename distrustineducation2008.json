@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+
+    "text": "Distrust in Education by Nation in 2008",
+
+    "subtitle": "Average answer when assessing trust education (0-4, 0-Total Trust, 4-No Trust).Source: European Values Survey",
+
+    "subtitleFontStyle":"italic",
+
+    "subtitleFontSize":10,
+
+    "anchor": "start",
+
+    "color": "black"
+ },
+
+ "params":[{"name":"highlight","select": {"type":"point","on":"mouseover"}}],
+
+  "data": {"url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/evsedutrust2008.csv"},
+  "mark":{
+
+ 
+
+      "type": "bar",
+
+      "color": "#37a2d749",
+
+      "strokeWidth":2,
+
+      "opacity":1
+
+ 
+
+    },
+  "height": 300,
+  "width": 250,
+
+  "encoding": {
+    "y": {"field": "Row Labels", "type": "ordinal", "sort":[], "title": null},
+
+
+
+
+    "x": {"field": "Average of EduTrust 2008", "type": "quantitative", "title": null, "scale": {"domain": [0, 2]}},
+    "fillOpacity":{"condition":{"param":"highlight", "value": 1}, "value":0.6},
+
+    "tooltip":[{"field":"Row Labels", "title":"Country"}, {"field":"AvgEduTrust","title":"Distrust Score"}]
+
+    }}
