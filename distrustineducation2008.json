@@ -46,6 +46,6 @@
     "x": {"field": "Average of EduTrust 2008", "type": "quantitative", "title": null, "scale": {"domain": [0, 2]}},
     "fillOpacity":{"condition":{"param":"highlight", "value": 1}, "value":0.6},
 
-    "tooltip":[{"field":"Row Labels", "title":"Country"}, {"field":"AvgEduTrust","title":"Distrust Score"}]
+    "tooltip":[{"field":"Row Labels", "title":"Country"}, {"field":"Average of EduTrust 2008","title":"Distrust Score"}]
 
     }}
