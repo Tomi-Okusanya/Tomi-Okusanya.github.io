@@ -53,16 +53,23 @@
     <button class="button" style="vertical-align:middle" onclick="location.href='index.html'"><span>Portfolio </span></button>
     <button class="button" style="vertical-align:right" onclick="location.href='https://github.com/Tomi-Okusanya/Tomi-Okusanya.github.io'"><span>Github </span></button>
   </div>
-   <p class=sub><b><span style="color:rgb(125, 60, 152)">Topic:</span><span style="color:rgb(0, 1, 9)"> What are the returns to further education and are they decreasing?</span></b></p>
-   <p>My project will be a look into the financial and perceived returns of further education. Inspired by “The Effects of Human Capital on Earnings: Evidence from a reform at Colombia’s top university”, I will be looking at the returns of further education, both financially, as well as socially (looking at perceptions some have on the impact of further education).</p>
+   <p class=sub><b><span style="color:rgb(125, 60, 152)">Topic:</span><span style="color:rgb(0, 1, 9)"> What are the perceived returns on further education in the UK?</span></b></p>
+   <p>My project is intended to investigate the perceived returns of further education and is inspired by Artega’s research, “The Effects of Human Capital on Earnings: Evidence from a reform in Colombia’s top University”, into the mechanism of which further education results in higher incomes. Her paper concludes that there is reason to believe in higher education, human capital accumulation is the driver of graduates experiencing increased incomes. I intend to evaluate this conclusion by looking at rates of people going to university (to assess demand for further education, at a Bachelor degree level), incomes of graduates (the financial returns on a further education), people’s trust in education (a proxy for the social returns on education, as well as, a way to evaluate the personal satisfaction one would get from completing a degree), and the relationship between incomes and education level, using a varying sample of European Countries (all available in the databases used for this project).</p>
    
-   <div class="chart" id="firstChart">
+   
+  <div class="chart" id="firstChart">
   <script>
     var myChart1 = "graduateseurostat.json";
     vegaEmbed('#firstChart', myChart1);
   </script>
 </div>
    
+   <p>Most of the data I used is from the European Values Survey, which has been hosted on my Github; this data is available for free from Leibniz Institute for the Social Sciences . My other main source of data was Eurostat. The data from the EVS survey, while incredibly rich in observations available (the Leibniz Institute creates multiple surveys called waves over multiple periods), has restricted access only for those who want to use the data for non-commercial purposes.
+The EVS survey data helped create a scatter plot describing the relationship between per capita income and average education level of different European Nations; the plotline shows that there is a negative relationship between low education level and income (with 0 being the highest level of education, doctorate or equivalent and 5 being the lowest level of education, primary school).
+My two bar charts on distrust in education help paint the image of further education operating as a signal in some settings, as opposed to the human capital theory; while distrust in education stays mainly consistent in terms of distribution of distrust between different European nations, smaller changes (such as the UK’s distrust score going up by 0.02 based on the EV survey between 2008 to 2018), indicating the perceived value of an education has decreased over the 10-year segment. It also implies that employers (who are part of those who have to fill in the value surveys) may be less swayed by candidates with further education qualifications.
+Despite this, the UK (and several other European countries) followed the trend of having an increased number of graduates from 2013 to 2019.
+Moreover, in my other interactive bar chart, most degrees fail to provide their students with a salary higher than the average UK salary, being £39600 for the mean and £31461 for the median average.</p>
+
    
    
    <div class="chart" id="secondChart">
@@ -71,13 +78,17 @@
     vegaEmbed('#secondChart', myChart2);
   </script>
 </div>
-   
+   <div>
+   </div>
    <div class="chart" id="thirdChart">
   <script>
     var myChart3 = "distrustineducation2018.json";
     vegaEmbed('#thirdChart', myChart3);
   </script>
 </div>
+   <p>When creating my graphs, I had significant issues creating relevant APIs to link multiple nation’s data together, which has unfortunately led to me having to host a majority of the data used to create my visualisations on my Github account, however, the trade-off of being able to observe trends in multiple countries over time, such as Bachelor graduates over time to assess demand for degrees and distrust in education in different nations, helps to understand how different European nations value education. I had to clean the EVS data (using Stata and Excel, with a simple Do-file is hosted in my repository).
+Moreover, I was able to create a scraper (available in my repository) to take data off the Complete University Guide’s website on graduate incomes based on different degrees, which aided in being able to evaluate the returns of further education.</p>
+
    
    <div class="chart" id="fourthChart">
     <script>
@@ -85,5 +96,15 @@
      vegaEmbed('#fourthChart', myChart4);
     </script>
    </div>
+   <p>While not enough analysis has been conducted to add to Artega’s findings on how further education contributes to human capital accumulation, it is implied that the perceived rewards in the UK of further education are significant; depending on the degree (holding one's aptitude for the degree constant), one can hope to earn much more than the average wage in the UK (in fields such as medicine, veterinary medicine). Moreover, career progression is often faster in schemes designed around students/graduate roles specifically in the UK.
+Moreover, to study this question further, utilising individual APIs to show rolling entrants for higher education, as well as, generating two regressions, one testing the causality between education level against individual earnings x years after completing that level of education (with controls for gender, age, what was done in the time between education and measuring earnings, etc) and the other using a similar format as the EVWS qualitative measures.</p>
+
    
    <img src="corrplot1.png" class="w3-rounded" alt="Regressing " width="400" height="300">
+
+   <p>Sources
+European Values Survey
+The Complete University Guide
+Eurostat
+Indeed.com
+   </p>
