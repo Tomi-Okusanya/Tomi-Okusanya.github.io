@@ -1,0 +1,52 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+
+    "text": "UK Average Graduate Salaries",
+
+    "subtitle": "Scraped Data on Graduate Salaries. Source: The Complete University Guide 2021",
+
+    "subtitleFontStyle":"italic",
+
+    "subtitleFontSize":10,
+
+    "anchor": "start",
+
+    "color": "black"
+ },
+
+ "params":[{"name":"highlight","select": {"type":"point","on":"mouseover"}}],
+
+  "data": {"url": "https://raw.githubusercontent.com/Tomi-Okusanya/Tomi-Okusanya.github.io/main/Paybasedoffdegree.csv"},
+  "mark":{
+
+ 
+
+      "type": "bar",
+
+      "color": "#bf37d749",
+
+      "strokeWidth":2,
+
+      "opacity":1
+
+ 
+
+    },
+  "height": 700,
+  "width": 250,
+
+  "encoding": {
+    "y": {"field": "Subject", "type": "ordinal", "sort":[], "title": null},
+
+
+
+
+    "x": {"field": "Average", "type": "quantitative", "title": null, "scale": {"domain": [0, 40000]}},
+    "fillOpacity":{"condition":{"param":"highlight", "value": 1}, "value":0.6},
+
+    "tooltip":[{"field":"Subject", "title":"Degree Type"}, {"field":"Average","title":"Salary in Pounds"}]
+
+    }}
