@@ -17,6 +17,10 @@
   "mark": "bar",
   "encoding": {
     "x": {"field": "gender", "type": "nominal", "axis": {"labelAngle": 20}},
-    "y": {"field": "search", "type": "quantitative", "scale":{"domain":[0,70]}}
+    "y": {
+      "field": "search",
+      "type": "quantitative",
+      "scale": {"domain": [0, 70]}
+    }
   }
 }
